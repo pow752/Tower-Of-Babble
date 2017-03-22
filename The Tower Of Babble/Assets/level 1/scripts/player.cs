@@ -26,13 +26,20 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        var mousePosishon = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Quaternion rot = Quaternion.LookRotation(transform.position - mousePosishon, Vector3.forward );
+        transform.rotation = rot;
+        transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z);
+        rb.angularVelocity = 0;
+
         if (Input.GetKey(KeyCode.Space))
         {
             anim.SetTrigger("Atack");
         }
 
 
-            if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             //transform.Translate(Vector2.up * speed);
 

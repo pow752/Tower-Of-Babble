@@ -46,9 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\level 1\scripts\Ai.cs" />
      <Compile Include="Assets\level 1\scripts\SwordScrept.cs" />
+     <Compile Include="Assets\level 1\scripts\nextLv.cs" />
      <Compile Include="Assets\level 1\scripts\player.cs" />
      <Compile Include="Assets\level 1\scripts\playerCamra.cs" />
+     <Compile Include="Assets\level 1\scripts\vishonScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
