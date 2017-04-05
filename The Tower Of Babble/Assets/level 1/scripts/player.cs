@@ -8,6 +8,8 @@ public class player : MonoBehaviour
 
     public float HP = 100;
     public float speed;
+    public int nextlv = 0;
+
     // public Rigidbody2D rb;
 
     public Rigidbody2D rb;
@@ -72,11 +74,19 @@ public class player : MonoBehaviour
 
         if (HP <= 0)
         {
-            Destroy(gameObject);
+
+            Application.LoadLevel(nextlv);
+          //  Destroy(gameObject);
         }
 
 
 
 
     }
+
+    public void takeDamage(float dps)
+    {
+        HP -= dps;
+    }
+
 }

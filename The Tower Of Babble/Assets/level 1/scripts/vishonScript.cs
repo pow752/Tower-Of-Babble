@@ -21,8 +21,23 @@ public class vishonScript : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             this.transform.parent.GetComponent<Ai>().seePlayer = true;
-            // GameObject.Find("badguy").GetComponent<Ai>().seePlayer = true;
         }
 
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            this.transform.parent.GetComponent<Ai>().atackPlayer = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            this.transform.parent.GetComponent<Ai>().atackPlayer = false;
+        }
     }
 }
