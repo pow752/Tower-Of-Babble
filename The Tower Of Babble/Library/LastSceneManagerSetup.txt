@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/levle 3.unity
+- path: Assets/intro screen/mainmenyou.unity
   isLoaded: 1
   isActive: 1

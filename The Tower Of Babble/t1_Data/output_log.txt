@@ -1,32 +1,38 @@
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     2018 MB
-    Driver:   20.19.15.4531
+    VRAM:     3072 MB
+    Driver:   21.21.13.7653
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.215 seconds
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\charlie\Documents\GitHub\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.081 seconds
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\Tower Of Babble\Tower-Of-Babble\The Tower Of Babble\t1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.538412 ms
+UnloadTime: 0.775408 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.170905 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.151249 ms (FindLiveObjects: 0.018906 ms CreateObjectMapping: 0.009708 ms MarkObjects: 0.111904 ms  DeleteObjects: 0.006898 ms)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 434c -> priority: 1 
-  Thread -> id: 4ee4 -> priority: 1 
+  Thread -> id: 2918 -> priority: 1 
+  Thread -> id: f7c -> priority: 1 

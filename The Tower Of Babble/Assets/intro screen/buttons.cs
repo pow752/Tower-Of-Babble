@@ -13,6 +13,14 @@ public class buttons : MonoBehaviour
     {
         Application.LoadLevel(nextlv);
     }
+    public void Restart()
+    {
+        Application.LoadLevel(1);
+    }
+    public void Mainmenyou()
+    {
+        Application.LoadLevel(0);
+    }
 
     public void CreditsBnt()
     {

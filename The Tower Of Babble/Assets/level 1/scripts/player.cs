@@ -75,7 +75,7 @@ public class player : MonoBehaviour
         if (HP <= 0)
         {
 
-            Application.LoadLevel(nextlv);
+            Application.LoadLevel(5);
           //  Destroy(gameObject);
         }
 
