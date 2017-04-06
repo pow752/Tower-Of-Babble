@@ -46,8 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\intro screen\buttons.cs" />
      <Compile Include="Assets\level 1\scripts\Ai.cs" />
+     <Compile Include="Assets\level 1\scripts\HelthStuff.cs" />
      <Compile Include="Assets\level 1\scripts\SwordScrept.cs" />
+     <Compile Include="Assets\level 1\scripts\helthPickup.cs" />
      <Compile Include="Assets\level 1\scripts\nextLv.cs" />
      <Compile Include="Assets\level 1\scripts\player.cs" />
      <Compile Include="Assets\level 1\scripts\playerCamra.cs" />

@@ -27,10 +27,10 @@ public class HelthStuff : MonoBehaviour {
             }
         }
 
-        if (playerStuff.GetComponent<player>().HP >= 70)
+        if (playerStuff.GetComponent<player>().HP >= 30)
         {
-            heart3.SetActive(true);
-            if (playerStuff.GetComponent<player>().HP >= 30)
+            heart2.SetActive(true);
+            if (playerStuff.GetComponent<player>().HP >= 70)
             {
                 heart3.SetActive(true);
             }
